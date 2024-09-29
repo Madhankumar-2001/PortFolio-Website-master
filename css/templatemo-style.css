@@ -474,7 +474,9 @@ http://www.templatemo.com/tm-509-hydro
     letter-spacing: 1px;
     margin-top: 3px;
   }
-
+  .work-thumb {
+    margin-bottom: 50px; /* Adjust the value as needed */
+}
   .work-thumb:hover .work-info h3,
   .work-thumb:hover .work-info small {
     transform: translateY(0px);
