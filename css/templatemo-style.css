@@ -413,10 +413,11 @@ http://www.templatemo.com/tm-509-hydro
       WORK             
   -----------------------------------------*/
 
-  .work-info img {
-    width: 100%;
-    border-radius: 100%;
-  }
+  .work-thumb img {
+    max-height: 150px; /* Adjust as necessary */
+    width: 100%; /* Ensures responsiveness */
+    object-fit: cover; /* Keeps aspect ratio */
+}
 
   #work .work-thumb {
     overflow: hidden;
